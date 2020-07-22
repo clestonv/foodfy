@@ -1,0 +1,30 @@
+.about {
+    font-weight: 600;
+}
+article {
+    max-width: 940px;
+    margin: 0 auto;
+
+    margin-top: 50px;
+}
+
+section h1 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+section h2 {
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--black);
+
+    margin-top: 20px;
+}
+
+section p{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--gray-text);
+}
