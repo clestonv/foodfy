@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,18 +18,18 @@
             </nav>
         </header>
 
-       <article>
-            
+        <article>
+
             <div class="cards">
                 <div class="card-receita">
                     <img src="/src/assets/burger.png" alt="">
-                    <h2>Triplo bacon burger</h2>
+                    <h2 id="titulo">Triplo bacon burger</h2>
                     <p>por Jorge Relato</p>
                 </div>
 
                 <div class="card-receita">
                     <img src="/src/assets/pizza.png" alt="">
-                    <h2>Pizza 4 estações</h2>
+                    <h2 id="titulo">Pizza 4 estações</h2>
                     <p>por Fabiana Melo</p>
                 </div>
 
@@ -100,5 +100,14 @@
         <footer>
             <p>Todos direitos reservados, receitas Foodfy.</p>
         </footer>
+            <div class="modal-overlay">
+                <div id="modal">
+                    <div class="modal">
+
+                    </div>
+                <a class="close" href="">Fechar modal</a>
+                </div>
+            </div>
+        <script src="/src/scripts/modal.js"></script>
     </body>
 </html>
