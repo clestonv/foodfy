@@ -19,10 +19,11 @@
   },
   "homepage": "https://github.com/clestonv/foodfy#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "nunjucks": "^3.2.2"
+    "express": "^4.17.1"
+    
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.2"
   }
 }

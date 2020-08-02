@@ -1,22 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="chapeu.ico" type="image/x-icon">
-        <link rel="stylesheet" href="../styles/main.css">
-        <link rel="stylesheet" href="../styles/index.css">
-        <title>FoodFy</title>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a class="logo" href="#"><img src="../assets/logo.png" alt="FoodFy"></a>
-                <a href="about.html">Sobre</a>
-                <a href="recipe.html">Receitas</a>
-            </nav>
-        </header>
+{% extends "layout.html" %}
 
+{% block content %}
         <main>
             <section>
                 <h1>As melhores receitas</h1>
@@ -67,10 +51,4 @@
             </div>
 
         </article>
-
-        <!-- rodape -->
-        <footer>
-            <p>Todos direitos reservados, receitas Foodfy.</p>
-        </footer>
-    </body>
-</html>
+{% endblock %}
