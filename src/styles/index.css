@@ -61,10 +61,16 @@ article h2 {
     gap: 30px 20px;
 }
 
+.card-receita {
+    position: relative;
+}
+
 
 .card-receita img {
     width: 300px;
     border-radius: 15px;
+    height: 140px;
+    object-fit: cover;
 }
 
 .card-receita h2 {

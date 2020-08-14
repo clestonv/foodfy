@@ -1,0 +1,66 @@
+.recipe {
+    margin-top: 50px;
+}
+
+.recipe img {
+    border-radius: 15px;
+}
+
+.recipe h1 {
+    font-size: 36px;
+    line-height: 42px;
+
+    margin-top: 50px;
+    text-align: center;
+}
+
+.recipe h2 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    margin-top: 2px;
+    text-align: center;
+    color: var(--grey-autor);
+}
+
+.recipe-content {
+    margin-top: 50px;
+}
+
+.recipe-content h4 {
+    font-size: 12px;
+    color: var(--grey1);
+}
+
+.topic-content {
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+.topic-content li,
+.topic-content p {
+    color: var(--gray-text);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.topic h3,
+.topic h4 {
+    display: inline;
+}
+
+.topic h3 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.topic h4 {
+    margin-left: 4px;
+    font-weight: 400;
+}
+
+.topic {
+    margin-top: 39px;
+}

@@ -13,6 +13,7 @@
 body {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 * {
     margin: 0;
@@ -20,6 +21,12 @@ body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     color: var(--black2);
+}
+
+.container {
+    min-height: 85vh;
+    max-width: 940px;    
+    margin: 0 auto;
 }
 
 header {
