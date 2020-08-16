@@ -14,7 +14,7 @@
         <div class="recipe-content">
             <div id="ingredients" class="topic">
                 <h3>Ingredientes</h3>
-                <h4 class="show">ESCONDER</h4>
+                <h4>ESCONDER</h4>
                 <div class="topic-content">
                     <ul>
                         {% for ingredient in item.ingredients %}                        
@@ -26,7 +26,7 @@
 
             <div id="preparation" class="topic">
                 <h3>Modo de preparo</h3>
-                <h4>MOSTRAR</h4>
+                <h4>ESCONDER</h4>
                 <div class="topic-content">
                     <ul>
                         {% for preparation in item.preparation %}
@@ -38,7 +38,7 @@
                 
             <div id="information" class="topic">
                 <h3>Informações adicionais</h3>
-                <h4>MOSTRAR</h4>
+                <h4>ESCONDER</h4>
                 <div class="topic-content">
                    <p>{{item.information}}</p>
                 </div>
