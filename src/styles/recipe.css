@@ -1,5 +1,6 @@
 .recipe {
     font-weight: 600;
+    transition: 0.6s;
 }
 
 .read {
@@ -15,8 +16,13 @@
     margin-left: 45px;
 
     cursor: pointer;
+    transition: 0.6s;
 }
 
+.read:hover {
+    background: var(--rose2);
+    color: var(--black);
+}
 
 .active {
     visibility: visible;

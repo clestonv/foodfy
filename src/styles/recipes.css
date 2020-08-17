@@ -36,6 +36,8 @@
 .topic-content {
     margin-top: 20px;
     margin-left: 17px;
+
+    transition: 0.6s;
 }
 
 .topic-content li,
@@ -44,6 +46,10 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
+}
+
+.topic-content p {
+    margin-left: -16px;
 }
 
 .topic h3,
