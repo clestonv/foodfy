@@ -1,6 +1,6 @@
 const express = require('express')
 const nunjucks = require('nunjucks')
-
+const PORT = process.env.PORT || 5000
 const server = express()
 const recipes = require("./data")
 
@@ -52,6 +52,6 @@ server.get("/recipes/:index", function (req, res) {
 
 
 
-server.listen(5000, function() {
+server.listen(PORT, function() {
     console.log('Server is running')
 })
