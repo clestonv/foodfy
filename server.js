@@ -1,8 +1,8 @@
 const express = require('express')
 const nunjucks = require('nunjucks')
-const PORT = process.env.PORT || 5000
 const server = express()
 const recipes = require("./data")
+const PORT = process.env.PORT || 5000
 
 server.set("view engine","html")
 
