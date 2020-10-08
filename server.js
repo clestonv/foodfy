@@ -1,3 +1,4 @@
+const cool = require('cool-ascii-faces')
 const express = require('express')
 const nunjucks = require('nunjucks')
 const server = express()
@@ -50,6 +51,7 @@ server.get("/recipes/:index", function (req, res) {
     return res.render("recipes", { item: recipe})
   })
 
+  server.get('/cool', (req, res) => res.send(cool()))
 
 
 server.listen(PORT, function() {
