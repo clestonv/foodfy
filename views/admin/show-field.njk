@@ -1,15 +1,7 @@
-{% extends "layout.html" %}
-{# 40 min #}
-{% block head%}
-    <title>{{item.title}}</title>
-    <link rel="stylesheet" href="../styles/recipes.css">
-    {% endblock%}
-
-    {% block content %}
         <div class="recipe">
-            <img src="{{item.image}}" alt="{{item.title}}">
-            <h1>{{item.title}}</h1>
-            <h2>por {{item.author}}</h2>
+            <img src="{{recipe.image}}" alt="{{recipe.title}}">
+            <h1>{{recipe.title}}</h1>
+            <h2>por {{recipe.author}}</h2>
         </div>
         <div class="recipe-content">
             <div id="ingredients" class="topic">
@@ -17,7 +9,7 @@
                 <h4 class="btn-show">ESCONDER</h4>
                 <div class="topic-content">
                     <ul>
-                        {% for ingredient in item.ingredients %}                        
+                        {% for ingredient in recipe.ingredients %}                        
                             <li>{{ingredient}}</li>
                         {% endfor %}
                     </ul>
@@ -29,7 +21,7 @@
                 <h4 class="btn-show">ESCONDER</h4>
                 <div class="topic-content">
                     <ul>
-                        {% for preparation in item.preparation %}
+                        {% for preparation in recipe.preparation %}
                         <li>{{preparation}}</li>
                         {% endfor %}
                     </ul>
@@ -40,9 +32,8 @@
                 <h3>Informações adicionais</h3>
                 <h4 class="btn-show">ESCONDER</h4>
                 <div class="topic-content">
-                   <p>{{item.information}}</p>
+                   <p>{{recipe.information}}</p>
                 </div>
             </div>
             
         </div>
-    {% endblock %}

@@ -70,3 +70,35 @@
 .topic {
     margin-top: 39px;
 }
+/**
+Edit
+**/
+.home {
+    width: 940px;
+    height: 40px;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home .title-admin {
+    display: block;
+    margin-top: 0;
+}
+
+article .recipe {
+    margin-top: 18px;
+}
+article a {
+    display: block;
+
+    text-decoration: none;
+    text-align: center;
+    padding-top: 9px;
+    width: 136px;
+    height: 37px;
+    background-color: var(--action1);
+    border-radius: 4px;
+    color: #FFF;
+}

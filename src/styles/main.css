@@ -9,6 +9,7 @@
     --rose: #FBDFDB;
     --rose2: #f7c6bf;
     --gray-text: #444444;
+    --action1: #6558C3;
 }
 
 body {
@@ -25,7 +26,7 @@ body {
 }
 
 .container {
-    min-height: 85vh;
+    min-height: 89vh;
     max-width: 940px;    
     margin: 0 auto;
 }

@@ -23,9 +23,8 @@ exports.recipes = function(req, res) {
 
     return res.render("recipe", { items: data.recipes })
 }
-exports.food = function (req, res) {
+exports.recipe = function (req, res) {
     const { index: recipeIndex } = req.params
-
     const recipe = data.recipes[recipeIndex]
 
     return res.render("recipes", { item: recipe})
@@ -34,13 +33,28 @@ exports.food = function (req, res) {
  * Páginas Admin
  */
 exports.index = function (req, res) {
-    return res.render("index")
+    let recipes = []
+    for( let i = 0; i < data.recipes.length; i++ ) {
+       const obj = data.recipes[i]
+       obj.index = i
+    }
+
+    return res.render("admin/index", { items: data.recipes })
 }
 exports.create = function (req, res) {
     return res.send('Create')
 }
 exports.show = function (req, res) {
-    return res.send('Show')
+    // req.params
+    const { id } = req.params
+    
+    const foundRecipe = data.recipes.find(function(recipe){
+        return recipe.id == id
+    })
+
+    if (!foundRecipe) return res.send("Receita não encontrada")
+
+    return res.render("admin/show" , { recipe: foundRecipe })
 }
 exports.edit = function (req, res) {
     return res.send('Edit')

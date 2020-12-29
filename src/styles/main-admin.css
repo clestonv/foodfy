@@ -1,0 +1,77 @@
+.container {
+    min-height: 85vh;
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+header {
+    max-width: 100vw;
+    margin: 0;
+    height: 80px;
+    background-color: var(--black);
+
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    max-width: 940px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+article {
+    max-width: 940px;
+    min-height: 75vh;
+    margin: 0 auto;
+}
+
+article .title-admin {
+    margin-top: 50px;
+}
+
+.cards {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.card-receita {
+    width: 450px;
+    height: 80px;
+
+    display: grid;
+    grid-template-columns: 172px 1fr;
+    column-gap: 20px;
+}
+
+.card-receita img {
+    width: 172px;
+    height: 80px;
+    border-radius: 8.57px;
+    object-fit: cover;
+}
+.info .title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color: var(--black);
+    margin-bottom: 5px;
+}
+
+.info p {
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--grey-autor);
+
+    margin-bottom: 10px;
+}
+
+.info a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color: var(--action1);
+    text-decoration: none;
+
+}

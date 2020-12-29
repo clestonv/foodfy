@@ -5,7 +5,7 @@ const routes = require('./routes')
 const server = express()
 const PORT = process.env.PORT || 5000
 
-server.set("view engine","html")
+server.set("view engine","njk")
 
 server.use(express.static('src'))
 server.use(routes)

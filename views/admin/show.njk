@@ -1,0 +1,19 @@
+{% extends "admin/layout-admin.njk" %}
+{% block head%}
+
+    <link rel="stylesheet" href="../../styles/recipes.css">
+    {% endblock%}
+    {% block content %}
+
+        <article>
+            <div class="home">
+                <h2 class="title-admin">Receita: {{ recipe.title }}                
+            </h2>
+            <a href="">Editar Receita</a>
+            </div>
+            
+            
+            {% include 'admin/show-field.njk' %}
+        </article>
+
+    {% endblock %}
