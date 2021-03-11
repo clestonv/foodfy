@@ -1,7 +1,7 @@
-{% extends "admin/layout-admin.njk" %}
+{% extends "layout-admin.njk" %}
 {% block head%}
 
-    <link rel="stylesheet" href="../../styles/recipes.css">
+    <link rel="stylesheet" href="/styles/recipes.css">
     {% endblock%}
     {% block content %}
 
@@ -9,7 +9,7 @@
             <div class="home">
                 <h2 class="title-admin">Receita: {{ recipe.title }}                
             </h2>
-            <a href="">Editar Receita</a>
+            <a href="/admin/recipes/{{ recipe.id }}/edit">Editar Receita</a>
             </div>
             
             

@@ -75,3 +75,100 @@ article .title-admin {
     text-decoration: none;
 
 }
+
+/* Admin */
+
+#recipe-form {    
+    width: 920px;
+    margin: 0 auto;
+}
+
+#recipe-form .header-form {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#recipe-form .header-form h4 {
+    color: var(--black);
+    font-size: 24px;
+    line-height: 28px;
+
+}
+
+.btn-create {
+    width: 139px;
+    height: 37px;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid var(--action1);
+    background-color: var(--action1);
+    outline-color: #DDD;
+    cursor: pointer;
+}
+
+.btn-delete {
+    width: 139px;
+    height: 37px;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid var(--red);
+    background-color: var(--red);
+    outline-color: #DDD;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.input-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: var(--black);
+}
+
+.input-form input {
+    height: 49px;
+    border-radius: 4px;
+    border: 1px solid #DDD;
+    outline-color: var(--action1);
+    padding: 8px;
+    color: var(--gray-text);
+    font-style: 16px;
+    margin-top: 10px;
+}
+
+.input-form a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--action1);
+
+    margin-top: 15px;
+}
+
+.input-form-text {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.input-form-text textarea {
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid #DDD;
+    outline-color: var(--action1);
+    padding: 8px;
+    color: var(--gray-text);
+    font-style: 16px;
+}

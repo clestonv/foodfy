@@ -1,0 +1,36 @@
+<div class="input-form">
+    <h4>Nomde da receita</h4>
+    <input type="text" name="" id="" value="{{recipe.title}}">
+    
+</div>
+<div class="input-form">
+    <h4>Nome do chefe</h4>
+    <input type="text" name="" id="" value="{{recipe.author}}">
+    
+</div>
+<div class="input-form">
+    <h4>Imagen da receita</h4>
+    <input type="text" name="" id="" value="{{recipe.image}}">
+    
+</div>
+<div class="input-form">
+    <h4>Ingredientes</h4>
+    {% for ingredient in recipe.ingredients %}
+    <input type="text" name="" id="" value="{{ingredient}}">
+    {% endfor %}
+    <a href="#">Adicionar novo ingrediente</a>
+</div>
+<div class="input-form">
+    
+    <h4>Modo de preparo</h4>
+    {% for preparation in recipe.preparation %}
+    <input type="text" name="" id="" value="{{preparation}}">
+    {% endfor %}
+    <a href="#">Adicionar novo ingrediente</a>
+</div>
+<div class="input-form-text">
+    <h4>Informações adicionais</h4>
+    <textarea name="" id="" cols="30" rows="15" >
+       {{recipe.information}}
+    </textarea>
+</div>
