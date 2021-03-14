@@ -4,12 +4,12 @@
 {% endblock %}
 {% block content %}
 
-<div id="recipe-form">
+<form id="recipe-form" method="POST" action="/admin/recipes">
     <div class="header-form">
         <h4>Criando receita</h4>
-        <button class="btn-create">Salvar receita</button>
+        <button class="btn-create" type="submit">Salvar receita</button>
     </div>
     {% include 'admin/fields.njk'%}
-</div>
+</form>
 
 {% endblock content %}

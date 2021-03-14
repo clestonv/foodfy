@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 5000
 
 server.set("view engine","njk")
 
+server.use(express.urlencoded( { extended: true } ))
 server.use(express.static('src'))
 server.use(routes)
 

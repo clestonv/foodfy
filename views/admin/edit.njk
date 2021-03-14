@@ -4,7 +4,7 @@
 {% endblock %}
 {% block content %}
 
-<div id="recipe-form">
+<form id="recipe-form" method="POST" action="/admin/recipes">
     <div class="header-form">
         <h4>Editando receita</h4>
         <div>
@@ -14,6 +14,6 @@
         
     </div>
     {% include 'admin/fields.njk'%}
-</div>
+</form>
 
 {% endblock content %}

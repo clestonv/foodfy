@@ -4,6 +4,9 @@
 
 .recipe img {
     border-radius: 15px;
+    width: 940px;
+    height: 280px;
+    object-fit: cover;
 }
 
 .recipe h1 {
