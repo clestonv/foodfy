@@ -146,7 +146,7 @@
       "index": 5
     },
     {
-      "id": 7,
+      "id": "7",
       "image": "https://images.pexels.com/photos/803963/pexels-photo-803963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "title": "Macarrão Ao Molho Branco",
       "author": "Thamires Borba",
@@ -164,7 +164,8 @@
         "Lave o macarrão.",
         "Faça o molho de sua preferência em outra panela."
       ],
-      "information": "       \r\n    Dica: sabia que é muito fácil incrementar seu macarrão com novos molhos e ingredientes? você pode fazer também um molho de carne moída com tomate, cebola e pimentão. Ou ainda um molho de frango desfiado com tomate, cebola e pimentão. Também pode colocar o macarrão depois de pronto em um tabuleiro, colocar queijo mussarela por cima e levar ao forno para gratinar.\r\n\r\nNão se esqueça de ficar muito atento ao ponto do macarrão. "
+      "information": "                                          \r\n    Dica: sabia que é muito fácil incrementar seu macarrão com novos molhos e ingredientes? você pode fazer também um molho de carne moída com tomate, cebola e pimentão. Ou ainda um molho de frango desfiado com tomate, cebola e pimentão. Também pode colocar o macarrão depois de pronto em um tabuleiro, colocar queijo mussarela por cima e levar ao forno para gratinar.\r\n\r\nNão se esqueça de ficar muito atento ao ponto do macarrão. \r\n    \r\n    \r\n    \r\n    \r\n    ",
+      "index": 6
     }
   ]
 }
