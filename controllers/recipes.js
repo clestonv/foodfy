@@ -6,6 +6,7 @@ const data = require('../data.json')
  */
 exports.home = function (req, res ) {
     let recipesFiltered = []
+
     for(let i = 0; i < 6; i++) {
         recipesFiltered.push(data.recipes[i])
     }
@@ -28,7 +29,8 @@ exports.recipe = function (req, res) {
     const { index: recipeIndex } = req.params
     const recipe = data.recipes[recipeIndex]
 
-    return res.render("recipes", { item: recipe})
+    return res.render("recipes", { item: recipe}, console.log(recipe))
+    
 }
 /**
  * Páginas Admin
